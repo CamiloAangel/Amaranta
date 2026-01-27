@@ -1,0 +1,60 @@
+import aboutBg from "../assets/sobremi.jpg"; // fondo (puedes usar otro)
+import aboutme from "../assets/aboutme.jpg";
+
+export function AboutMe() {
+  return (
+    <section
+      className="relative w-full py-28 bg-cover bg-center"
+      style={{ backgroundImage: `url(${aboutBg})` }}
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+
+      {/* Content */}
+      <div className="relative z-10 max-w-6xl mx-auto px-6">
+        <div
+          className="
+            grid md:grid-cols-2 gap-12 items-center
+            rounded-3xl
+            bg-white/30 dark:bg-black/30
+            backdrop-blur-xl
+            border border-white/20
+            shadow-xl
+            p-10
+          "
+        >
+          {/* Texto */}
+          <div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+              Sobre mí
+            </h2>
+
+            <p className="text-white/80 leading-relaxed text-base md:text-lg">
+              A través de mi obra, expreso la sencillez y naturalidad de lo
+              cotidiano, haciendo un homenaje a la flora y fauna colombiana,
+              enfocándome en las relaciones socioambientales entre comunidades y
+              naturaleza en las que se dota de sentido la vida en sus múltiples
+              subjetividades territoriales.
+            </p>
+          </div>
+
+          {/* Imagen */}
+          <div className="w-full">
+            <img
+              src={aboutme}
+              alt="Sobre mí"
+              className="
+                w-full
+                object-cover
+                rounded-2xl
+                aspect-square
+                md:aspect-[4/5]
+                shadow-lg
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
