@@ -41,7 +41,7 @@ export function SiteNavbar() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://wa.me/573XXXXXXXXX?text=Hola%20doc,%20estoy%20interesado%20en%20tus%20servicios"
+              href="https://wa.me/573155305185?text=Hola%20doc,%20estoy%20interesado%20en%20tus%20servicios"
               target="_blank"
               className="p-2 rounded-full hover:bg-black/10 transition"
             >
@@ -49,7 +49,7 @@ export function SiteNavbar() {
             </a>
 
             <a
-              href="https://instagram.com/TU_INSTAGRAM"
+              href="https://www.instagram.com/dra.sandravelasquez?igsh=OHdhcXppemxsaHY2"
               target="_blank"
               className="p-2 rounded-full hover:bg-black/10 transition"
             >
@@ -85,7 +85,7 @@ export function SiteNavbar() {
 
             <div className="mt-4 flex w-full flex-col gap-3">
               <a
-                href="https://wa.me/573000000000?text=Hola%20doctora,%20estoy%20interesado%20en%20tus%20servicios"
+                href="https://wa.me/573155305185?text=Hola%20doctora,%20estoy%20interesado%20en%20tus%20servicios"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMobileMenuOpen(false)}
@@ -95,7 +95,7 @@ export function SiteNavbar() {
               </a>
 
               <a
-                href="https://instagram.com/TU_USUARIO"
+                href="https://www.instagram.com/dra.sandravelasquez?igsh=OHdhcXppemxsaHY2"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMobileMenuOpen(false)}
