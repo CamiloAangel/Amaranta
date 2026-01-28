@@ -1,4 +1,4 @@
-import { Navbar } from "../components/Navbar";
+import { SiteNavbar } from "../components/Navbar";
 import Hero from "../components/Hero";
 import { AboutMe } from "../components/AboutMe";
 import { Works } from "../components/Works";
@@ -8,7 +8,7 @@ import { Contact } from "../components/Contact";
 export default function Home() {
   return (
     <main className="bg-neutral-950 text-white">
-      <Navbar />
+      <SiteNavbar />
       <Hero />
       <AboutMe />
       <Works />
