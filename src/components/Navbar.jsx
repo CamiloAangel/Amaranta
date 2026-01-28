@@ -32,29 +32,30 @@ export function SiteNavbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-            <div className="relative w-full">
-              <BaseNavbar>
-                {/* Desktop Navigation */}
-                <NavBody>
-                  <NavbarLogo />
-                  <NavItems items={navItems} />
-                  <div className="flex gap-4 pt-2">
-          <a
-            href="https://wa.me/573XXXXXXXXX?text=Hola%20doc,%20estoy%20interesado%20en%20tus%20servicios"
-            target="_blank"
-            className="p-2 rounded-full hover:bg-black/10 transition"
-          >
-            <IconBrandWhatsapp size={22} />
-          </a>
+    <div className="relative w-full">
+      <BaseNavbar>
+        {/* Desktop Navigation */}
+        <NavBody>
+          <NavbarLogo />
+          <NavItems items={navItems} />
 
-          <a
-            href="https://instagram.com/TU_INSTAGRAM"
-            target="_blank"
-            className="p-2 rounded-full hover:bg-black/10 transition"
-          >
-            <IconBrandInstagram size={22} />
-          </a>
-        </div>
+          <div className="flex items-center gap-4">
+            <a
+              href="https://wa.me/573XXXXXXXXX?text=Hola%20doc,%20estoy%20interesado%20en%20tus%20servicios"
+              target="_blank"
+              className="p-2 rounded-full hover:bg-black/10 transition"
+            >
+              <IconBrandWhatsapp size={22} />
+            </a>
+
+            <a
+              href="https://instagram.com/TU_INSTAGRAM"
+              target="_blank"
+              className="p-2 rounded-full hover:bg-black/10 transition"
+            >
+              <IconBrandInstagram size={22} />
+            </a>
+          </div>
         </NavBody>
 
         {/* Mobile Navigation */}
