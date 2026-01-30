@@ -16,15 +16,15 @@ import { useState } from "react";
 export function SiteNavbar() {
   const navItems = [
     {
-      name: "Procedimientos",
+      name: "Servicios",
       link: "#features",
     },
     {
-      name: "Precios",
+      name: "Sobre nosotros",
       link: "#pricing",
     },
     {
-      name: "Contacto",
+      name: "Contactanos",
       link: "#contact",
     },
   ];

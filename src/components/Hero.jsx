@@ -8,33 +8,32 @@ export default function Hero() {
       style={{ backgroundImage: `url(${heroImg})` }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/40 " />
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-3xl">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
-          Elizabeth Cambelt
+          Centro de Estética Amaranta 
         </h1>
 
         <p className="mt-4 text-base md:text-lg text-white/80">
-          Soy apasionada por la vida y el color, creo en la expresión artística
-          como una herramienta poderosa para reparar y transformar vidas y
-          espacios.
+          Tu belleza es única; protégela y realzala con procedimientos estéticos seguros.
+          Fusionamos tecnología y cariño para que disfrutes de tu mejor versión con total confianza.
         </p>
 
         <div className="mt-8 flex justify-center gap-4">
           <a
-            href="#works"
+            href=""
             className="px-6 py-3 rounded-xl bg-white text-black font-medium hover:scale-105 transition"
           >
-            Mis trabajos
+            Sobre nosotros
           </a>
 
           <a
-            href="#contact"
-            className="px-6 py-3 rounded-xl border border-white/30 text-white hover:bg-white/10 transition"
+            href=""
+            className="px-6 py-3 rounded-xl bg-white text-black font-medium hover:scale-105 transition"
           >
-            Contacto
+            Quiero mi cita
           </a>
         </div>
       </div>

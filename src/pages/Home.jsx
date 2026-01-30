@@ -11,8 +11,8 @@ export default function Home() {
       <SiteNavbar />
       <Hero />
       <AboutMe />
-      <Works />
       <Contact/>
+      <Works />
       <End />
     </main>
   );

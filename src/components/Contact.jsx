@@ -11,10 +11,12 @@ export function Contact() {
         {/* Header */}
         <div className="mb-16 max-w-2xl">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
-            Contacto
+            ¡Contactanos!
           </h2>
           <p className="text-neutral-700 text-lg">
-            Hablemos sobre tu proyecto, colaboraciones o intervenciones artísticas.
+          Tu bienestar comienza con una conversación. Contáctanos para 
+          reservar tu cita o recibir más información sobre nuestros 
+          servicios en estética facial, corporal y cirugía. ¡Te esperamos!
           </p>
         </div>
 
@@ -22,51 +24,27 @@ export function Contact() {
         <div className="grid gap-8 md:grid-cols-3">
           {/* WhatsApp */}
           <a
-            href="https://wa.me/573147733595?text=Hola%20Eli,%20me%20gustaría%20cotizar%20un%20proyecto"
+            href="https://wa.me/573155305185?text=Hola%20doc,%20estoy%20interesado%20en%20tus%20servicios"
             target="_blank"
             className="group rounded-2xl border border-neutral-200 p-6 transform transition-all duration-300 ease-out hover:scale-105 hover:bg-green-50 hover:border-green-300 hover:shadow-lg active:scale-95"
           >
             <IconBrandWhatsapp className="h-8 w-8 text-neutral-800 mb-4 transition group-hover:text-green-600 group-hover:scale-110" />
             <h3 className="font-semibold text-black mb-1">WhatsApp</h3>
             <p className="text-neutral-600 text-sm">
-              Escríbeme directamente para cotizar tu idea.
-            </p>
-          </a>
-
-          {/* Email */}
-          <a
-            href="mailto:studiocambelt@gmail.com"
-            className="group rounded-2xl border border-neutral-200 p-6 transform transition-all duration-300 ease-out hover:scale-105 hover:bg-sky-50 hover:border-sky-300 hover:shadow-lg active:scale-95"
-          >
-            <IconMail className="h-8 w-8 text-neutral-800 mb-4 transition group-hover:text-sky-600 group-hover:scale-110" />
-            <h3 className="font-semibold text-black mb-1">Email</h3>
-            <p className="text-neutral-600 text-sm">
-              studiocambelt@gmail.com
+              Escríbenos para agendar tu cita y resaltar tu belleza natural.
             </p>
           </a>
 
           {/* Instagram */}
           <a
-            href="https://www.instagram.com/studiocambelt"
+            href="https://www.instagram.com/dra.sandravelasquez?igsh=OHdhcXppemxsaHY2"
             target="_blank"
             className="group rounded-2xl border border-neutral-200 p-6 transform transition-all duration-300 ease-out hover:scale-105 hover:bg-pink-50 hover:border-pink-300 hover:shadow-lg active:scale-95"
           >
             <IconBrandInstagram className="h-8 w-8 text-neutral-800 mb-4 transition group-hover:text-pink-600 group-hover:scale-110" />
-            <h3 className="font-semibold text-black mb-1">Instagram Studio Cambelt</h3>
+            <h3 className="font-semibold text-black mb-1">Instagram Dra. Sandra Velásquez</h3>
             <p className="text-neutral-600 text-sm">
-              @studiocambelt
-            </p>
-          </a>
-          {/* Instagram  flow primavera*/}
-          <a
-            href="https://www.instagram.com/flowprimavera?igsh=MTB1ZnlhYnd1bnZ3Ng=="
-            target="_blank"
-            className="group rounded-2xl border border-neutral-200 p-6 transform transition-all duration-300 ease-out hover:scale-105 hover:bg-pink-50 hover:border-pink-300 hover:shadow-lg active:scale-95"
-          >
-            <IconBrandInstagram className="h-8 w-8 text-neutral-800 mb-4 transition group-hover:text-pink-600 group-hover:scale-110" />
-            <h3 className="font-semibold text-black mb-1">Instagram Flow Primavera</h3>
-            <p className="text-neutral-600 text-sm">
-              @studiocambelt
+              Mira casos reale y testimonios de nuestros pacientes.
             </p>
           </a>
         </div>

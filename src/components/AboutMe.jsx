@@ -26,15 +26,15 @@ export function AboutMe() {
           {/* Texto */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-              Sobre mí
+              Sobre nosotros
             </h2>
 
             <p className="text-white/80 leading-relaxed text-base md:text-lg">
-              A través de mi obra, expreso la sencillez y naturalidad de lo
-              cotidiano, haciendo un homenaje a la flora y fauna colombiana,
-              enfocándome en las relaciones socioambientales entre comunidades y
-              naturaleza en las que se dota de sentido la vida en sus múltiples
-              subjetividades territoriales.
+              Nos apasiona cuidar de ti. Somos un centro de estética integral donde la 
+              tecnología avanzada se une a la calidez de un equipo experto para realzar 
+              tu belleza natural con total seguridad. Desde tratamientos de piel y cabello 
+              hasta cirugía estética en Cali, acompañamos a nuestros clientes en cada paso, 
+              haciéndolos sentir radiantes, cómodos y en las mejores manos.
             </p>
           </div>
 
